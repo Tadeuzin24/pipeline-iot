@@ -30,10 +30,11 @@ O arquivo CSV utilizado é `IOT-temp.csv` e deve ser colocado na pasta `data/`.
 ```text
 pipeline-iot/
 ├── data/
-│   ├── IOT-temp.csv
 │   └── .gitkeep
 ├── docs/
 ├── screenshots/
+│   ├── dashboard-graficos.png
+│   └── dashboard-indicadores.png
 ├── sql/
 │   └── views.sql
 ├── src/
@@ -42,6 +43,9 @@ pipeline-iot/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
+
+**Observação:** o arquivo `IOT-temp.csv` não é versionado no GitHub. Para executar o projeto, baixe o conjunto de dados indicado na seção 3 e coloque o arquivo na pasta `data/` com esse nome.
 ```
 
 ## 5. Configuração do ambiente
